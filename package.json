@@ -1,6 +1,7 @@
 {
   "name": "quotemas",
   "version": "0.1.0",
+  "homepage": "https://molybdenum.uk/Quotemas.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-fontawesome": "^1.6.5"
+    "@types/react-fontawesome": "^1.6.5",
+    "gh-pages": "^4.0.0"
   }
 }
