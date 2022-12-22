@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import QuoteList, { QuoteListProps } from './containers/quoteList';
+import AddQuote from './inputForms/addQuote';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [items, setItems] = useState<QuoteListProps>({quoteList: [{quote: 'test', author: 'max'}, {quote: 'quote for what, this an example of an extremely long quote', author:'mum'}]});
+  return ( //{setQuotes: setItems, quotes: items}
+    <div>
+      <AddQuote setQuotes={setItems} quotes={items}/>
+      <QuoteList quoteList={items.quoteList}/>
     </div>
+    
   );
 }
 

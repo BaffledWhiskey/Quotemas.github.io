@@ -1,0 +1,16 @@
+.fancy-form{
+    background-color: rgb(51, 54, 54);
+    margin: 10%;
+    color: rgba(255, 255, 255, 0.556);
+    border-radius: 0.2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0;
+}
+
+.submit-button{
+    border-radius: 0.2rem;
+    color: rgba(255, 255, 255, 0.556);
+    background-color: rgb(51, 54, 54);
+}

@@ -1,0 +1,38 @@
+
+.quote-bubble{
+    border-radius: 1.5rem;
+    color: rgba(255, 255, 255, 0.556);
+    box-shadow: 0.2rem;
+    background-color: rgb(51, 54, 54);
+    padding-bottom: 0.1rem;
+}
+
+.quote-text{
+    margin-left: 4%;
+}
+
+.up-arrow{
+    position: relative;
+    float: right;
+    right: 20px;
+    bottom: 40px;
+    width: 1.5rem;
+    height: auto;
+}
+
+.down-arrow{
+    position: relative;
+    float: right;
+    right: 20px;
+    bottom: 40px;
+    width: 1.5rem;
+    height: auto;
+}
+
+.arrow-not-selected{
+    color: rgba(255, 255, 255, 0.556);
+}
+
+.arrow-selected{
+    color: blue;
+}

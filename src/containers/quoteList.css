@@ -1,0 +1,6 @@
+.quote-list{
+    list-style-type: none; /* Remove bullets */
+    margin: 20%; /* Remove margins */
+    padding: 0;
+    align-self: center;
+  }
