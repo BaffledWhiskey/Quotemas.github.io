@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Quotemas.github.io/static/css/main.a3c30001.css",
-    "main.js": "/Quotemas.github.io/static/js/main.eaaeebcd.js",
+    "main.js": "/Quotemas.github.io/static/js/main.223eb4fb.js",
     "static/js/787.eb540a57.chunk.js": "/Quotemas.github.io/static/js/787.eb540a57.chunk.js",
     "index.html": "/Quotemas.github.io/index.html",
     "main.a3c30001.css.map": "/Quotemas.github.io/static/css/main.a3c30001.css.map",
-    "main.eaaeebcd.js.map": "/Quotemas.github.io/static/js/main.eaaeebcd.js.map",
+    "main.223eb4fb.js.map": "/Quotemas.github.io/static/js/main.223eb4fb.js.map",
     "787.eb540a57.chunk.js.map": "/Quotemas.github.io/static/js/787.eb540a57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3c30001.css",
-    "static/js/main.eaaeebcd.js"
+    "static/js/main.223eb4fb.js"
   ]
 }
