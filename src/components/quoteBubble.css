@@ -5,6 +5,7 @@
     box-shadow: 0.2rem;
     background-color: rgb(51, 54, 54);
     padding-bottom: 0.1rem;
+    width: 100%;
 }
 
 .quote-text{
@@ -15,7 +16,7 @@
     position: relative;
     float: right;
     right: 20px;
-    bottom: 40px;
+    bottom: 10px;
     width: 1.5rem;
     height: auto;
 }
@@ -30,9 +31,20 @@
 }
 
 .arrow-not-selected{
-    color: rgba(255, 255, 255, 0.556);
+    color: rgba(67, 67, 67, 0.556);
 }
 
 .arrow-selected{
     color: blue;
+}
+
+.author-box{
+    bottom: 0;
+    margin-left: 4%;
+}
+
+.votes-pill{
+    float: right;
+    position: relative;
+    right: -10px;
 }
