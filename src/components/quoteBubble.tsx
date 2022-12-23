@@ -24,7 +24,7 @@ const QuoteBubble = (props: Quote) =>{
     
 
     const upVote = (event: any)=>{
-        //event.preventDefault();
+        event.preventDefault();
         if(upArrowSelected){
             updateDownArrowSelected(false);
             updateUpArrowSelected(false);
@@ -37,7 +37,7 @@ const QuoteBubble = (props: Quote) =>{
     }
     
     const downVote = (event: any ) =>{
-        //event.preventDefault();
+        event.preventDefault();
         if(downArrowSelected){
             props.passVotes(props.votes + 1, props.quoteId);
             updateUpArrowSelected(false);
